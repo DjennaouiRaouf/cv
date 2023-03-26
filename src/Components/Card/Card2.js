@@ -56,7 +56,7 @@ class Card2 extends React.Component{
                                 <div className="hori-timeline" dir="ltr">
                                     <ul className="list-inline events">
                                         {this.state.projets.map((element) =>
-                                        <li className="list-inline-item event-list" key={element.id}>
+                                        <li className="list-inline-item event-list pulse-grow-on-hover" key={element.id}>
                                             <div className="px-4">
                                                 <div className="event-date bg-soft-primary text-primary">{element.annee}</div>
                                                 <h5 className="font-size-16 hiding">{element.title}</h5>

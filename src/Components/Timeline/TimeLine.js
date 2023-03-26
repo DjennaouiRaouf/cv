@@ -50,7 +50,7 @@ class TimeLine extends React.Component{
                             <div className="col-md-12">
                                 <div className="main-timeline4 ">
                                     {this.state.parcours.map((parcours) =>
-                                        <div className="timeline float-on-hover" key={parcours.id}>
+                                        <div className="timeline pulse-grow-on-hover" key={parcours.id}>
                                             <span className="timeline-icon"></span>
                                             <span className="year">{parcours.annee}</span>
                                             <div className="timeline-content">

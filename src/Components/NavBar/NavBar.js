@@ -41,13 +41,13 @@ class NavBar extends React.Component{
                                     <Link className="nav-link dropdown-toggle float-on-hover" aria-expanded="true"
                                           data-bs-toggle="dropdown" to="/cv">Cv</Link>
                                     <div className="dropdown-menu " data-bs-popper="none" style={{"background": "rgb(236,241,244)"}}>
-                                        <Link className="dropdown-item" to="/cv" onClick={()=>this.scrolldiv("p")}>Parcours</Link>
-                                        <Link className="dropdown-item" to="/cv" onClick={()=>this.scrolldiv("Langague De Programmation")}>Langage de programmation</Link>
-                                        <Link className="dropdown-item" to="/cv" onClick={()=>this.scrolldiv("Systeme de Gestion de Base de Données")}>Base de données</Link>
-                                        <Link className="dropdown-item" to="/cv" onClick={()=>this.scrolldiv("Outils de Developpement")}>Outils de developpement</Link>
-                                        <Link className="dropdown-item" to="/cv" onClick={()=>this.scrolldiv("Systeme d'exploitation")}>Systemes d'exploitation</Link>
-                                        <Link className="dropdown-item" to="/cv" onClick={()=>this.scrolldiv("proj")}>Projets</Link>
-                                        <Link className="dropdown-item" to="/cv" onClick={()=>this.scrolldiv("lng")}>Langues</Link>
+                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("p")}>Parcours</Link>
+                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Langague De Programmation")}>Langage de programmation</Link>
+                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Systeme de Gestion de Base de Données")}>Base de données</Link>
+                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Outils de Developpement")}>Outils de developpement</Link>
+                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Systeme d'exploitation")}>Systemes d'exploitation</Link>
+                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("proj")}>Projets</Link>
+                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("lng")}>Langues</Link>
                                     </div>
 
                                     </div>

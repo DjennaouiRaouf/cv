@@ -56,7 +56,7 @@ class App extends React.Component{
 
             </Routes>
         </HashRouter>
-            <button className="btn btn-primary" type="button" style={{"fontSize": "20px",
+            <button className="btn btn-primary pulse-grow-on-hover" type="button" style={{"fontSize": "20px",
                 "borderRadius": "20px",
                 "position": "fixed",
                 "bottom": "20px",
