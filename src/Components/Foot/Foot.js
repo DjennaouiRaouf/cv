@@ -3,6 +3,8 @@ import  React from "react";
 class Foot extends React.Component{
 
     render() {
+        var today = new Date(),
+            date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
         return(
             <footer className="text-center" style={{"background": "rgb(236,241,244)"}}>
 
@@ -15,7 +17,7 @@ class Foot extends React.Component{
                             </li>
                     </ul>
 
-                    <p className="mb-0 float-on-hover">Copyright © 2023</p>
+                    <p className="mb-0 float-on-hover">{date}</p>
                 </div>
             </footer>
         );
