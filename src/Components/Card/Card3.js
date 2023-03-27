@@ -26,7 +26,7 @@ class Card3 extends React.Component{
                 <div className="row justify-content-center">
                     <div className="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">
                         <div className="card border-0 shadow" style={{"backgroundColor":"#f0f0f0"}}>
-                            <img src={this.state.img} alt=""/>
+                            <img src={this.state.img} alt="" style={{"widht":"100px"}}/>
                                 <div className="card-body p-1-9 p-xl-5">
                                     <div className="mb-4">
                                         <h3 className="h4 mb-0">{this.state.name}</h3>
