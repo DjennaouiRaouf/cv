@@ -45,8 +45,16 @@ class Card1 extends  React.Component{
 
                             <div className="single_advisor_details_info">
                                 <h6>{element.text}</h6>
-                                <hr/>
-                                <h6>{"Niveau: " + element.niv}</h6>
+                                {
+                                    element.niv !== "" &&
+                                    <div>
+                                        <hr/>
+                                        <h6>{"Niveau: " + element.niv}</h6>
+                                    </div>
+
+
+                                }
+
 
                             </div>
                         </div>
