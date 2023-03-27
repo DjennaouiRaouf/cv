@@ -118,6 +118,13 @@ class Card extends React.Component{
                      title:"Arduino",
                      text:"J'ai une bonne metrise d'Arduino  qui est une marque d'une plateforme de prototypage open-source qui permet aux utilisateurs de créer des objets électroniques interactifs à partir de cartes électroniques matériellement libres sur lesquelles se trouve un microcontrôleur. Les schémas de ces cartes électroniques sont publiés en licence libre "
                  },
+                 {
+                     id:9,
+                     img:"assets/img/odoo.png",
+                     title:"Odoo",
+                     text:"J'ai une bonne metrise d'Odoo  qui est n progiciel de gestion intégré open-source comprenant de très nombreux modules permettant de répondre à de nombreux besoins de gestion des entreprises ou de gestion de la relation client. Le logiciel est utilisé par plus de cinq millions d’utilisateurs pour gérer leurs entreprises à travers le monde. Odoo est le système ERP open-source le plus populaire. "
+                 },
+
              ]
              ,
              lang:[
