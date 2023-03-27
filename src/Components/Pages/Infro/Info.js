@@ -3,16 +3,18 @@ import Information from "../../Information/Information";
 
 import Foot from "../../Foot/Foot";
 import NavBar from "../../NavBar/NavBar";
+import ButtonScroll from "../../ButtonScroll/ButtonScroll";
 
-class AboutMe extends React.Component{
+class Info extends React.Component{
     render() {
         return(
             <div id="AboutMe">
                 <NavBar/>
                 <Information/>
                 <Foot/>
+                <ButtonScroll/>
             </div>
         )
     }
 }
-export default AboutMe;
+export default Info;

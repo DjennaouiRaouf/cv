@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 
 
 class NavBar extends React.Component{
@@ -18,7 +18,11 @@ class NavBar extends React.Component{
 
         })
     }
-    scrolldiv(elemId) {
+
+    switch(){
+        this.props.history.push("/cv")
+    }
+    goToCvScroll(elemId) {
         var elem = document.getElementById(elemId);
         elem.scrollIntoView();
     }
@@ -39,21 +43,22 @@ class NavBar extends React.Component{
                                 <li className="nav-item ">
                                 <div className="dropdown show">
                                     <Link className="nav-link dropdown-toggle float-on-hover" aria-expanded="true"
-                                          data-bs-toggle="dropdown" to="/cv">Cv</Link>
+                                          data-bs-toggle="dropdown" to="#" onClick={()=>this.switch()}>Cv</Link>
                                     <div className="dropdown-menu " data-bs-popper="none" style={{"background": "rgb(236,241,244)"}}>
-                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("p")}>Parcours</Link>
-                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Langague De Programmation")}>Langage de programmation</Link>
-                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Systeme de Gestion de Base de Données")}>Base de données</Link>
-                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Outils de Developpement")}>Outils de developpement</Link>
-                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("Systeme d'exploitation")}>Systemes d'exploitation</Link>
-                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("proj")}>Projets</Link>
-                                        <Link className="dropdown-item float-on-hover" to="/cv" onClick={()=>this.scrolldiv("lng")}>Langues</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("prof")}>Profile</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("p")}>Parcours</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Langague De Programmation")}>Langage de programmation</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Systeme de Gestion de Base de Données")}>Base de données</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Outils de Developpement")}>Outils de developpement</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Systeme d'exploitation")}>Systemes d'exploitation</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("proj")}>Projets</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("lng")}>Langues</Link>
                                     </div>
 
                                     </div>
                                 </li>
 
-                                <li className="nav-item "><Link className="nav-link float-on-hover" to="/information">À propos de moi</Link></li>
+                                <li className="nav-item "><Link className="nav-link float-on-hover" to="/information">Informations</Link></li>
 
                             </ul>
                         </div>
@@ -65,4 +70,4 @@ class NavBar extends React.Component{
     }
 }
 
-export default NavBar;
+export default withRouter(NavBar);
