@@ -124,6 +124,13 @@ class Card extends React.Component{
                      title:"Odoo",
                      text:"J'ai une bonne metrise d'Odoo  qui est n progiciel de gestion intégré open-source comprenant de très nombreux modules permettant de répondre à de nombreux besoins de gestion des entreprises ou de gestion de la relation client. Le logiciel est utilisé par plus de cinq millions d’utilisateurs pour gérer leurs entreprises à travers le monde. Odoo est le système ERP open-source le plus populaire. "
                  },
+                 {
+                     id:10,
+                     img:"assets/img/talend.jpg",
+                     title:"talend data integration",
+                     text:"J'ai une bonne metrise de talend data integration qui est un outil permettant la gestion des données hétérogènes\n" +
+                         "ou homogènes au sein d’un système d’information"
+                 },
 
              ]
              ,
