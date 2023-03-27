@@ -12,12 +12,14 @@ class Card1 extends  React.Component{
                 {
                     id:1,
                     img:"assets/img/eng.png",
-                    text:"Anglais"
+                    text:"Anglais",
+                    niv:"",
                 },
                 {
                     id:2,
                     img:"assets/img/france.png",
-                    text:"Français"
+                    text:"Français",
+                    niv:"C1",
                 },
 
             ]})
@@ -43,6 +45,8 @@ class Card1 extends  React.Component{
 
                             <div className="single_advisor_details_info">
                                 <h6>{element.text}</h6>
+                                <hr/>
+                                <h6>{"Niveau: " + element.niv}</h6>
 
                             </div>
                         </div>

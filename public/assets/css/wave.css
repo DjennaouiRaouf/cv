@@ -1,0 +1,25 @@
+.pulse{
+
+    background: #0d6efd;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    animation: animate-pulse 3s linear infinite;
+    cursor: pointer
+}
+@keyframes animate-pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(13,110,253,0.7),  0 0 0 0 rgba(13,110,253,0.7);
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgba(13,110,253,0.0),  0 0 0 0 rgba(13,110,253,0.7);
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(13,110,253,0.0),  0 0 0 30px rgba(13,110,253,0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(13,110,253,0.0),  0 0 0 30px rgba(13,110,253,0);
+    }
+
+}
