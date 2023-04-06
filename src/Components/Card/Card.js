@@ -239,7 +239,7 @@ class Card extends React.Component{
               <div className="container" key={key}>
                   <section>
                       <h1 id={e.cat} >{e.cat}</h1>
-                      { e.cat === "Langague De Programmation" ?
+                      { e.cat === "Langage De Programmation" ?
                           <div    className="container">
                               <div className="row">
                                   {this.state.lang.map((element) =>
