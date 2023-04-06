@@ -15,7 +15,7 @@ class Card extends React.Component{
      componentDidMount() {
          this.setState({
              categorie:[
-                 {cat:"Langague De Programmation"},
+                 {cat:"Langage De Programmation"},
                  {cat:"Systeme de Gestion de Base de Données"},
                  {cat:"Outils de Developpement"},
                  {cat:"Systeme d'exploitation"}
