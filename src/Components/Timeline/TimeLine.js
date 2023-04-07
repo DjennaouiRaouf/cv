@@ -12,28 +12,28 @@ class TimeLine extends React.Component{
                     id:1,
                     annee:"2014",
                     titre:"Obtention du Bac",
-                    texte:"j'ai obtenu mon Bac série Science de la nature et de la vie mention A.Bien "
+                    texte:"Obtention du Bac série Science de la nature et de la vie mention A.Bien "
 
                 },
                 {
                     id:2,
                     annee:"2019",
                     titre:"Obtention de la licence",
-                    texte:"j'ai obtenue ma licence en informatique academique "
+                    texte:"Obtention de la licence en informatique academique "
 
                 },
                 {
                     id:3,
                     annee:"2021",
                     titre:"Obtention du master",
-                    texte:"j'au obtenu mon master en bio-informatique"
+                    texte:"Obtention du master en bio-informatique"
 
                 },
                 {
                     id:4,
                     annee:"2022",
                     titre:"Cash Assurance",
-                    texte:"j'ai commencé à travailler à la compagnie d'assurance des hydrocarbures (Cash assurance) en tant qu'ingénieur en informatique au niveau de la sous-direction de développement"
+                    texte:"Recrutement au sein la compagnie d'assurance des hydrocarbures (Cash assurance) en tant qu'ingénieur en informatique au niveau de la sous-direction de développement"
 
                 },
             ]})
