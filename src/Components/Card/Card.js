@@ -18,7 +18,7 @@ class Card extends React.Component{
                  {cat:"Langage De Programmation"},
                  {cat:"Systeme de Gestion de Base de Données"},
                  {cat:"Outils de Developpement"},
-                 {cat:"Systeme d'exploitation"}
+                 {cat:"Systemes d'exploitations"}
                 ]
              ,
              os:[
@@ -333,7 +333,7 @@ class Card extends React.Component{
 
                                   </div>
                               </div>
-                                : e.cat === "Systeme d'exploitation" &&
+                                : e.cat === "Systemes d'exploitations" &&
                                   <div id="os" className="container">
                                       <div className="row">
                                           {this.state.os.map((element) =>

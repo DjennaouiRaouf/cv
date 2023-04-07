@@ -31,7 +31,7 @@ class Card2 extends React.Component{
                     id:4,
                     annee:2022,
                     title:"Projet Cash Assurance",
-                    text:"Création d'une plate-forme Web destinée aux experts d'assurance afin qu'ils puissent envoyer leurs rapports d'expertise à la direction générale sans se déplacer (ReactJS, Dotnet,MS-SQLServer)"
+                    text:"Création d'une plate-forme Web destinée aux experts d'assurance afin qu'ils puissent envoyer leurs rapports d'expertises à la direction générale sans se déplacer (ReactJS, Dotnet,MS-SQLServer)"
                 },
                 {
                     id:5,
