@@ -13,8 +13,8 @@ class Card3 extends React.Component{
         this.setState({
             name:"Djennaoui Raouf",
             img:"assets/img/raouf_img-modified.png",
-            profile:"<h6>Ingénieure en informatique, interessé par le developpement des applications \n" +
-                "informatiques et les nouvelles technologies.</h6>"
+            profile:"<h6>Ingénieur en informatique, interessé par le developpement des applications \n" +
+                "informatiques et des nouvelles technologies.</h6>"
         })
     }
 

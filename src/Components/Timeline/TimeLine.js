@@ -12,21 +12,21 @@ class TimeLine extends React.Component{
                     id:1,
                     annee:"2014",
                     titre:"Obtention du Bac",
-                    texte:"En 2014 j'ai obtenu mon Bac série Science de la nature et de la vie "
+                    texte:"j'ai obtenu mon Bac série Science de la nature et de la vie mention A.Bien "
 
                 },
                 {
                     id:2,
                     annee:"2019",
                     titre:"Obtention de la licence",
-                    texte:"En 2019 j'ai obtenue ma licence en informatique academique "
+                    texte:"j'ai obtenue ma licence en informatique academique "
 
                 },
                 {
                     id:3,
                     annee:"2021",
                     titre:"Obtention du master",
-                    texte:"En 2021 j'au obtenu mon master en bio-informatique"
+                    texte:"j'au obtenu mon master en bio-informatique"
 
                 },
                 {
