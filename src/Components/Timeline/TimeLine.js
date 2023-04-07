@@ -33,7 +33,7 @@ class TimeLine extends React.Component{
                     id:4,
                     annee:"2022",
                     titre:"Cash Assurance",
-                    texte:"En 2022 j'ai commencé à travailler à la compagnie d'assurance des hydrocarbures (Cash assurance) en tant qu'ingénieur en informatique au niveau de la sous-direction de développement"
+                    texte:"j'ai commencé à travailler à la compagnie d'assurance des hydrocarbures (Cash assurance) en tant qu'ingénieur en informatique au niveau de la sous-direction de développement"
 
                 },
             ]})
