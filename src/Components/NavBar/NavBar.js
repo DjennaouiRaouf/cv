@@ -45,7 +45,7 @@ class NavBar extends React.Component{
                                     <Link className="nav-link dropdown-toggle float-on-hover" aria-expanded="true"
                                           data-bs-toggle="dropdown" to="#" onClick={()=>this.switch()}>Cv</Link>
                                     <div className="dropdown-menu " data-bs-popper="none" style={{"background": "rgb(236,241,244)"}}>
-                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("prof")}>Profile</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("prof")}>Profil</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("p")}>Parcours</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Langague De Programmation")}>Langage de programmation</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Systeme de Gestion de Base de Données")}>Base de données</Link>

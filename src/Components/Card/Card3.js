@@ -21,7 +21,7 @@ class Card3 extends React.Component{
     render() {
         return(
             <section>
-                <h1 id="prof">Profile</h1>
+                <h1 id="prof">Profil</h1>
             <div className="container" >
                 <div className="row justify-content-center">
                     <div className="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">

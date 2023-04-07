@@ -122,7 +122,7 @@ class Card extends React.Component{
                      id:9,
                      img:"assets/img/odoo.png",
                      title:"Odoo",
-                     text:"Je maîtrise Odoo  qui est n progiciel de gestion intégré open-source comprenant de très nombreux modules permettant de répondre à de nombreux besoins de gestion des entreprises ou de gestion de la relation client. Le logiciel est utilisé par plus de cinq millions d’utilisateurs pour gérer leurs entreprises à travers le monde. Odoo est le système ERP open-source le plus populaire. "
+                     text:"Je maîtrise Odoo  qui est un progiciel de gestion intégré open-source comprenant de très nombreux modules permettant de répondre à de nombreux besoins de gestion des entreprises ou de gestion de la relation client. Le logiciel est utilisé par plus de cinq millions d’utilisateurs pour gérer leurs entreprises à travers le monde. Odoo est le système ERP open-source le plus populaire. "
                  },
                  {
                      id:10,
@@ -181,19 +181,19 @@ class Card extends React.Component{
                      id:8,
                      img:"assets/img/mp.png",
                      title:"Librairie Open Mp",
-                     text:"Je maîtrise de la pribrairie du calcule haut performance OPEN-MP  "
+                     text:"Je maîtrise de la pribrairie du calcul haute performance OPEN-MP  "
                  },
                  {
                      id:9,
                      img:"assets/img/mpi.jpeg",
                      title:"Librairie Open Mpi",
-                     text:"Je maîtrise  la pribrairie du calcule haut performance OPEN-MPI  "
+                     text:"Je maîtrise  la pribrairie du calcul haute performance OPEN-MPI  "
                  },
                  {
                      id:10,
                      img:"assets/img/react.png",
                      title:"Librairie ReactJS",
-                     text:"Je maîtrise  la pribrairie ReactJS en utilisant les composant basés sur des classes <strong> (class based components)</strong>  "
+                     text:"Je maîtrise  la pribrairie ReactJS en utilisant les composants basés sur des classes <strong> (class based components)</strong>  "
                  },
 
                  {
