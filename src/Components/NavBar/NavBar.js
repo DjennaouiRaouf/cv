@@ -47,10 +47,10 @@ class NavBar extends React.Component{
                                     <div className="dropdown-menu " data-bs-popper="none" style={{"background": "rgb(236,241,244)"}}>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("prof")}>Profil</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("p")}>Parcours</Link>
-                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Langague De Programmation")}>Langage de programmation</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Langage De Programmation")}>Langage de programmation</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Systeme de Gestion de Base de Données")}>Base de données</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Outils de Developpement")}>Outils de developpement</Link>
-                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Systeme d'exploitation")}>Systemes d'exploitation</Link>
+                                        <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("Systeme d'exploitation")}>Systemes d'exploitations</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("proj")}>Projets</Link>
                                         <Link className="dropdown-item float-on-hover"  to="#" onClick={()=>this.goToCvScroll("lng")}>Langues</Link>
                                     </div>
