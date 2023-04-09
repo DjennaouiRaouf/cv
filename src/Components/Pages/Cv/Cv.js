@@ -1,12 +1,12 @@
 import React from "react";
-import TimeLine from "../../Timeline/TimeLine";
-import Card from "../../Card/Card";
-import Foot from "../../Foot/Foot";
-import NavBar from "../../NavBar/NavBar";
-import Card1 from "../../Card/Card1";
-import Card2 from "../../Card/Card2";
-import ButtonScroll from "../../ButtonScroll/ButtonScroll";
-import Card3 from "../../Card/Card3";
+import TimeLine from "../../Base/TimeLine/TimeLine";
+import Card from "../../Base/Card/Card";
+import Foot from "../../Base/Foot/Foot";
+import NavBar from "../../Base/NavBar/NavBar";
+import Card1 from "../../Base/Card/Card1";
+import Card2 from "../../Base/Card/Card2";
+import ButtonScroll from "../../Base/ButtonScroll/ButtonScroll";
+import Card3 from "../../Base/Card/Card3";
 class Cv extends React.Component{
 
     render() {

@@ -2,6 +2,8 @@ import React from "react";
 import {Link, withRouter} from 'react-router-dom';
 
 
+
+
 class NavBar extends React.Component{
     constructor(props) {
         super(props);
@@ -32,7 +34,7 @@ class NavBar extends React.Component{
         return(
 
                 <nav className="navbar navbar-light navbar-expand-md py-3" style={{"background": "rgb(236,241,244)"}}>
-                    <div className="container"><a className="navbar-brand d-flex align-items-center" href="/"><span
+                    <div className="container"><a className="navbar-brand d-flex align-items-center" href="/src/Components/Pages"><span
                         style={{"fontSize": "16px"}}><img src={this.state.img} width="51" alt=""
                                                       height="51"/><strong><em>&nbsp;{this.state.username}</em></strong></span></a>
                         <button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1"><span

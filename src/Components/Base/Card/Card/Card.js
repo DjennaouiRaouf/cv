@@ -1,5 +1,6 @@
 import React from "react";
 import parse from "html-react-parser";
+import "./Card.css"
 class Card extends React.Component{
      constructor(props) {
          super(props);
@@ -247,8 +248,8 @@ class Card extends React.Component{
 
                                       <div className="col-md-4 float-on-hover" key={element.id}>
                                           <div className="blog-card blog-card-blog">
-                                              <div className="blog-card-image"><a href="/"><img alt="" className="img-fluid img"
-                                                                                                src={element.img}/></a>
+                                              <div className="blog-card-image"><a href="/src/Components/Pages"><img alt="" className="img-fluid img"
+                                                                                                                    src={element.img}/></a>
                                                   <div className="ripple-cont"></div>
                                               </div>
                                               <div className="blog-table">
@@ -261,7 +262,7 @@ class Card extends React.Component{
                                                           "marginTop": "-26px",
                                                           "height":"40.7px"
                                                       }}><a
-                                                      href="/"><br/><br/><br/></a></h4>
+                                                      href="/src/Components/Pages"><br/><br/><br/></a></h4>
                                                   <p className="blog-card-description">{parse(element.text)}</p>
                                               </div>
                                           </div>
@@ -278,8 +279,8 @@ class Card extends React.Component{
 
                                       <div className="col-md-4 float-on-hover" key={element.id}>
                                           <div className="blog-card blog-card-blog">
-                                              <div className="blog-card-image"><a href="/"><img alt="" className="img-fluid img"
-                                                                                                src={element.img}/></a>
+                                              <div className="blog-card-image"><a href="/src/Components/Pages"><img alt="" className="img-fluid img"
+                                                                                                                    src={element.img}/></a>
                                                   <div className="ripple-cont"></div>
                                               </div>
                                               <div className="blog-table">
@@ -292,7 +293,7 @@ class Card extends React.Component{
                                                           "marginTop": "-26px",
                                                           "height":"40.7px"
                                                       }}><a
-                                                      href="/"><br/><br/><br/></a></h4>
+                                                      href="/src/Components/Pages"><br/><br/><br/></a></h4>
                                                   <p className="blog-card-description">{parse(element.text)}</p>
                                               </div>
                                           </div>
@@ -310,8 +311,8 @@ class Card extends React.Component{
 
                                           <div className="col-md-4 float-on-hover" key={element.id}>
                                               <div className="blog-card blog-card-blog">
-                                                  <div className="blog-card-image"><a href="/"><img alt="" className="img-fluid img"
-                                                                                                    src={element.img}/></a>
+                                                  <div className="blog-card-image"><a href="/src/Components/Pages"><img alt="" className="img-fluid img"
+                                                                                                                        src={element.img}/></a>
                                                       <div className="ripple-cont"></div>
                                                   </div>
                                                   <div className="blog-table">
@@ -324,7 +325,7 @@ class Card extends React.Component{
                                                               "marginTop": "-26px",
                                                               "height":"40.7px"
                                                           }}><a
-                                                          href="/"><br/><br/><br/></a></h4>
+                                                          href="/src/Components/Pages"><br/><br/><br/></a></h4>
                                                       <p className="blog-card-description">{parse(element.text)}</p>
                                                   </div>
                                               </div>
@@ -341,8 +342,8 @@ class Card extends React.Component{
 
                                               <div className="col-md-4 float-on-hover" key={element.id}>
                                                   <div className="blog-card blog-card-blog">
-                                                      <div className="blog-card-image"><a href="/"><img alt="" className="img-fluid img"
-                                                                                                        src={element.img}/></a>
+                                                      <div className="blog-card-image"><a href="/src/Components/Pages"><img alt="" className="img-fluid img"
+                                                                                                                            src={element.img}/></a>
                                                           <div className="ripple-cont"></div>
                                                       </div>
                                                       <div className="blog-table">
@@ -355,7 +356,7 @@ class Card extends React.Component{
                                                                   "marginTop": "-26px",
                                                                   "height":"40.7px"
                                                               }}><a
-                                                              href="/"><br/><br/><br/></a></h4>
+                                                              href="/src/Components/Pages"><br/><br/><br/></a></h4>
                                                           <p className="blog-card-description">{parse(element.text)}</p>
                                                       </div>
                                                   </div>

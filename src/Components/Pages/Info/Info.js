@@ -1,9 +1,9 @@
 import React from "react";
-import Information from "../../Information/Information";
+import Information from "../../Base/Information/Information";
 
-import Foot from "../../Foot/Foot";
-import NavBar from "../../NavBar/NavBar";
-import ButtonScroll from "../../ButtonScroll/ButtonScroll";
+import Foot from "../../Base/Foot/Foot";
+import NavBar from "../../Base/NavBar/NavBar";
+import ButtonScroll from "../../Base/ButtonScroll/ButtonScroll";
 
 class Info extends React.Component{
     render() {

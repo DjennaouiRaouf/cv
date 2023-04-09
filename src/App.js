@@ -1,10 +1,12 @@
 import React from "react";
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import "./wave.css";
+import "./pulse.css"
+import "./float.css"
 
-
-import RouteError from "./Components/Error/RouteError";
+import Error from "./Components/Base/Error/Error";
 import Cv from "./Components/Pages/Cv/Cv";
-import Info from "./Components/Pages/Infro/Info";
+import Info from "./Components/Pages/Info/Info";
 
 
 
@@ -37,7 +39,7 @@ class App extends React.Component{
                 <Route exact path='/' component={Cv}/>
                 <Route  path='/cv' component={Cv }/>
                 <Route  path='/information' component={Info}/>
-                <Route  path='*' component={RouteError}/>
+                <Route  path='*' component={Error}/>
 
             </Switch>
         </Router>

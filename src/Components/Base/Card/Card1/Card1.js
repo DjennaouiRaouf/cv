@@ -1,5 +1,5 @@
 import React from "react";
-
+import  "./Card1.css";
 class Card1 extends  React.Component{
     constructor(props) {
         super(props);

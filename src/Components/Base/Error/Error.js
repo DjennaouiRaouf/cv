@@ -1,5 +1,6 @@
 import React from "react";
-class RouteError extends React.Component{
+import "./Error.css";
+class Error extends React.Component{
     render() {
         return(
             <div style={{
@@ -19,7 +20,7 @@ class RouteError extends React.Component{
                                     <span className="inner-status">Oops! Vous etes perdu</span>
                                     <span className="inner-detail" >
                     Page introuvable
-                    <a style={{"marginLeft":"10px"}}href="/" className="btn btn-info mtl"><i className="fa fa-home" ></i>&nbsp;
+                    <a style={{"marginLeft":"10px"}} href="/" className="btn btn-info mtl"><i className="fa fa-home" ></i>&nbsp;
                         Retour
                     </a>
                 </span>
@@ -31,4 +32,4 @@ class RouteError extends React.Component{
         );
     }
 }
-export default RouteError;
+export default Error;

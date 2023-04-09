@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Information.css"
 class Information extends React.Component{
     constructor(props) {
         super(props);
@@ -32,7 +32,7 @@ class Information extends React.Component{
                 <section>
                     <h1>Mes Informations</h1>
                     <div className="container">
-                        <div className="container bootstrap snippets bootdey">
+                        <div className="container ">
                             <div className="panel-body inf-content">
                                 <div className="row">
                                     <div className="col-md-4 float-on-hover"><img className="img-circle img-thumbnail isTooltip" alt=""

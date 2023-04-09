@@ -1,4 +1,5 @@
 import React from "react";
+import "./TimeLine.css"
 class TimeLine extends React.Component{
     constructor(props) {
         super(props);
