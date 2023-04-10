@@ -11,42 +11,27 @@ import Info from "./Components/Pages/Info/Info";
 
 
 class App extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state={
-
-            isAuthenticated:false,
-        }
-    }
-    componentDidMount() {
-        this.setState({
-
-            isAuthenticated:false,
-        })
-    }
-
-
 
     render()
-  {
-    return(
-        <div id="App">
-            <Router>
-            <Switch>
+      {
+        return(
+            <div id="App">
+                <Router>
+                <Switch>
 
 
 
-                <Route exact path='/' component={Cv}/>
-                <Route  path='/cv' component={Cv }/>
-                <Route  path='/information' component={Info}/>
-                <Route  path='*' component={Error}/>
+                    <Route exact path='/' component={Cv}/>
+                    <Route  path='/cv' component={Cv }/>
+                    <Route  path='/information' component={Info}/>
+                    <Route  path='*' component={Error}/>
 
-            </Switch>
-        </Router>
+                </Switch>
+            </Router>
 
-  </div>
-    )
-  }
+      </div>
+        )
+    }
 }
 
 export default App;
